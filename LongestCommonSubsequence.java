@@ -68,10 +68,11 @@ if(c[i - 1][j].val>= c[i][j - 1].val)
                 }
             }
         }
-System.out.println("Length of LCS is : " + c[X.length()][Y.length()].val);
+System.out.println("Length of LCS is : " + c[x.length][y.length].val);
 print(c , x , X.length() , Y.length());
 System.out.println();
     }
 
 }
+
 
